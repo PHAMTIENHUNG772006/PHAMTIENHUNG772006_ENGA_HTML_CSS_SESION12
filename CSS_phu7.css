@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto Sans",sans-serif;
+    margin: 24px;
+}
+.container-child{
+    padding: 24px;
+    height: 326px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    width:90%;
+    background-color: gray;
+    position: relative;
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+.card-text{
+    bottom: 140px;
+    padding: 0px 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.icon-body{
+    position: relative;
+    justify-content: space-between;
+    padding: 10px;
+    width: 300px;
+    bottom: 90px;
+    color: white;
+    display: flex;
+}
+.header{
+    margin: 15px;
+    
+}
+hr{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
